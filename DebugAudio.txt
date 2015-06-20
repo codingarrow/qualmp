@@ -1,0 +1,12 @@
+﻿https://208.80.180.209:8080/web/system.php/voicelogs/index?viewtype=1
+
+
+--when calling the Play button
+https://208.80.180.209:8080/web/system.php/voicelogs/play?filepath=/dacx/var/ameyo/dacxdata/voicelogs/2013-11-19/Jamie_Hira/12038492165_Jamie_Hira_2013-11-19-07-51-55&filename=12038492165_Jamie_Hira_2013-11-19-07-51-55&asteriskip=208.80.180.209&callhistoryid=d440-528713c2-vcall-10101&ingain=1&outgain=1
+
+--WORKS
+https://208.80.180.209:8080/web/system.php/voicelogs/play?filepath=/dacx/var/ameyo/dacxdata/voicelogs/2014-08-05/Jamie_Hira/17709754102_Jamie_Hira_2014-08-05-12-49-11&filename=17709754102_Jamie_Hira_2014-08-05-12-49-11&asteriskip=208.80.180.209&callhistoryid=d690-53abb9a7-vcall-361976&ingain=1&outgain=1
+
+
+/dacx/var/ameyo/dacxdata/voicelogs/2014-08-05/Jamie_Hira
+

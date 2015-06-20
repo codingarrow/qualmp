@@ -1,0 +1,32 @@
+#!/usr/bin/env python -u
+
+#
+# Hello, REST API!  Requires the websocket-client library.
+
+import websocket
+import sys
+import json
+import urllib
+
+def main(argv):
+  ws = websocket.create_connection(
+       "ws://127.0.0.1:8088/ari/events?app=hello&api_key=asteriskryan:ast3R1sK",
+	   header={"Sec-WebSocket-Protocol: ari"})
+  try:
+       msg_str = ws.recv()
+	   while msg_str is not None:
+	        msg_json = json.loads(msg_str)
+			print json.dumps(msg_json, sort_keys=True,
+			           indent=2, separators=(',',': '))
+		print "!!!!!!!"
+		    msg_str = ws.recv()
+  except KeybordInterrupt:
+        print "*** Closing"
+  except websocket.WebSocketConnectionClosedException:
+        print "*** Closed"
+  ws.close()
+  
+if __name__ == "__main__":
+  sys.exit(main(sys.argv) or 0)
+	   
+	   

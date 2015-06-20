@@ -1,0 +1,85 @@
+﻿vl///dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora
+
+vl//dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora/61894466577_EBDZamora_2014-08-10-23-04-07.wav
+
+/dacx/ameyo/acp/cache/system/prod/config/voicelog_cache.php
+
+/dacx/ameyo/acp/apps/system/modules/voicelogs/actions
+
+
+http://208.80.180.209:8080/web/qmp_EXE_auDio.php
+
+
+
+vl///dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora
+
+<br /><br />
+
+vl//dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora/61894466577_EBDZamora_2014-08-10-23-04-07.wav
+
+<br /><br />
+
+/dacx/ameyo/acp/cache/system/prod/config/voicelog_cache.php
+
+  <audio src='/web/vl//dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora/61894466577_EBDZamora_2014-08-10-23-04-07.wav' controls autoplay>
+   <EMBED SRC='/web/vl//dacx/var/ameyo/dacxdata/voicelogs/2014-08-10/EBDZamora/61894466577_EBDZamora_2014-08-10-23-04-07.wav' autostart='true' loop='false' volume='100' >
+   </EMBED>
+  </audio>
+
+
+
+
+	  function verify_qmp_postrating($call_id,$hlduser_id,$topic_id,$category_id,$selectionid  ) {
+		->from('qmp_viewpostrating')
+		->where('topic_id', $topic_id)
+		->where('rateduser', $hlduser_id)
+		->where('categoryid', $category_id)
+		->where('ratingselectionid', $selectionid)
+		->where('call_id', $call_id)
+		->get()->result_array();
+
+
+update qmp_viewpostrating
+set ratingselectionid=1
+where categoryid=7
+and topic_id=2
+and campaignid=17
+and call_id in ('d690-53abb9a7-vcall-212001')
+and rateduser in ('SankashSupervisor')
+
+select rdovalue from qmp_viewpostrating where call_id in ('d690-53abb9a7-vcall-212001') and rdovalue in ('7,2,17,2') and rateduser in ('SankashSupervisor')
+select rdovalue from qmp_viewpostrating where call_id in ('d690-53abb9a7-vcall-212001') and rdovalue in ('1,1,17,0') and rateduser in ('SankashSupervisor')
+select rdovalue from qmp_viewpostrating where call_id in ('d690-53abb9a7-vcall-212001') and rdovalue in ('3,1,17,6') and rateduser in ('SankashSupervisor')
+
+----------------------------------------------------------------------
+login: Administrator
+password: T3l3R@!n
+
+EBDmalto
+Password9
+
+EBDManzo
+Password27
+
+EBDSupervisor4
+EBDSupervisor4
+
+EBDJoyFortus
+----------------------------------------------------------------------
+ food proj
+----------------------------------------------------------------------
+
+VOICELOGS
+/dacx/ameyo/acp/web/vl/dacx/var/ameyo/dacxdata/voicelogs/2014-08-10
+
+
+THE executing SCRIPT
+/dacx/ameyo/acp/apps/system/modules/voicelogs/actions
+
+userId=SankashSupervisor&login_id=SankashSupervisor&login_password=SankashSupervisor
+
+
+call problem ---> staggered line --> http://208.80.180.209:8786/qmp/index.php/crmcontroller/search_call_details?call_id=d690-53abb9a7-vcall-568514
+
+QUALITY MANAGEMENT PORTAL
+/dacx/ameyo/crm/html/qmp/application/views
